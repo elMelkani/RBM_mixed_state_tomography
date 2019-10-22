@@ -3,14 +3,10 @@ Tomography using the NQS ansatz and a procedure of step-wise extraction of pure 
 
 A short description of the files:
 
-fullRhoMain3 is the main file that is to be run to perform tomography.
+mainForPsi1 is the main file that is to be run to extract the first eigenstate. Similarly for mainForPsi2.
 
-rhoRBM3 is the class file for the RBMs. It contains all the functionality of the RBMs.
+rhoRBM is the class file for the RBMs/NQS. It contains all the functionality of the RBMs/NQS.
 
 tomoHelper has helper functions to generate random density matrices for testing or to generate random POVMs/Unitaries etc.
 
-plotter is used to plot the results of the main file run
-
-costAnalysis was used to analyze which the performance of the distance measures KL, KL2, L2, etc.
-
-Entropies was used to make the plot of the entropy of measurements of mixed state compared with corresponding measurements on the pure eigenstate.
+plotter is used to plot the results of the main file run.
